@@ -52,7 +52,7 @@ var openAiSettings = {
 
 var cosmosDbSettings = {
   name: '${name}-cosmos-nosql'
-  enableFreeTier: cosmosDbEnableFreeTier
+  enableFreeTier: false
   database: {
     name: 'chatdatabase'
   }
